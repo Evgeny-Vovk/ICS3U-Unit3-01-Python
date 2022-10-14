@@ -8,15 +8,15 @@
 def main():
 
     # input
-    first_number = float(input("Please type in the first number: "))
-    second_number = float(input("Second number you want to add them up: "))
+    first_number = int(input("Please type in the first number(integer): "))
+    second_number = int(input("Second number you want to add them up(integer): "))
 
     # process
     total = first_number + second_number
 
     # output
     print(
-        "\nThe total of numbers {0:,} and {1:,} is {2:,}.".format(
+        "\n{0:,} + {1:,} = {2:,}.".format(
             first_number, second_number, total
         )
     )
