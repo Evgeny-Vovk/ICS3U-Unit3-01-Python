@@ -15,11 +15,7 @@ def main():
     total = first_number + second_number
 
     # output
-    print(
-        "\n{0:,} + {1:,} = {2:,}.".format(
-            first_number, second_number, total
-        )
-    )
+    print("\n{0:,} + {1:,} = {2:,}.".format(first_number, second_number, total))
 
     print("\n\nDone.")
 
